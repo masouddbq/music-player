@@ -1,1 +1,27 @@
- 
+{
+  "name": "neumorphic-music-player",
+  "version": "1.0.0",
+  "description": "A beautiful neumorphic music player with drag and drop functionality",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server --port=3000 --open=index.html",
+    "dev": "live-server --port=3000 --open=index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "music-player",
+    "neumorphic",
+    "drag-and-drop",
+    "javascript",
+    "html5",
+    "css3"
+  ],
+  "author": "Masoud",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.1"
+  }
+} 
