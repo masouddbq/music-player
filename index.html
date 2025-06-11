@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neumorphic Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="music-player" id="musicPlayer">
+            <div class="player-header">
+                <h2>Neumorphic Player</h2>
+            </div>
+            
+            <div class="music-info">
+                <img src="https://via.placeholder.com/200" alt="Album Art" class="album-art">
+                <h3 class="song-title">Drag & Drop Music</h3>
+                <p class="artist">Artist Name</p>
+            </div>
+
+            <div class="progress-area">
+                <div class="progress-bar">
+                    <div class="progress"></div>
+                </div>
+                <div class="time">
+                    <span class="current">0:00</span>
+                    <span class="duration">0:00</span>
+                </div>
+            </div>
+
+            <div class="controls">
+                <button class="prev-btn">
+                    <i class="fas fa-backward"></i>
+                </button>
+                <button class="play-pause-btn">
+                    <i class="fas fa-play"></i>
+                </button>
+                <button class="next-btn">
+                    <i class="fas fa-forward"></i>
+                </button>
+            </div>
+
+            <div class="volume-container">
+                <i class="fas fa-volume-up"></i>
+                <input type="range" class="volume-slider" min="0" max="100" value="100">
+            </div>
+
+            <div class="drop-zone" id="dropZone">
+                <p>Drag & Drop your music files here</p>
+                <input type="file" id="fileInput" accept="audio/*" multiple hidden>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
