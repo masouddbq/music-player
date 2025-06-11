@@ -8,7 +8,7 @@
 
 یک موزیک پلیر زیبا با طراحی نئومورفیک و رنگ‌بندی بنفش/بنفش روشن که قابلیت درگ اند دراپ فایل‌های صوتی را دارد.
 
-![Music Player Preview](https://i.imgur.com/8XZQYtL.png)
+![Music Player Preview](./preview.png)
 
 ## ✨ ویژگی‌ها
 
